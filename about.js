@@ -13,7 +13,6 @@ function WriteCountries(data) {
   data.forEach((country) => {
     let li = document.createElement("li");
     
-    // asosiy kartochka div
     li.innerHTML = `
       <div class="bg-gray-300 rounded-md p-2 cursor-pointer">
         <h3 class="text-center font-bold text-[20px]">${country.name.common}</h3>
